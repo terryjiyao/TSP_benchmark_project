@@ -8,7 +8,7 @@ https://en.wikipedia.org/wiki/Travelling_salesman_problem
 
 
 ## Exact Algorithms
-### BruteForce
+### Brute Force
 
 Reference: https://github.com/AbrarJahin/travelling-salesman-problem-brute-force
 
