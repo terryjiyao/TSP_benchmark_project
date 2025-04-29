@@ -55,6 +55,9 @@ Stability of path node for different hueristic search algorithms.
 Result route for different exact search algorithms.
 ![route](/fig/exact.route.png)
 
+Time compliexity for different exact search algorithms.
+![compliexity](/fig/exact.timecomplexity.png)
+
 ## Code
 
 Example code for exact search
