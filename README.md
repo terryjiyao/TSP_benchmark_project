@@ -13,7 +13,7 @@ https://en.wikipedia.org/wiki/Travelling_salesman_problem
 Reference: https://github.com/AbrarJahin/travelling-salesman-problem-brute-force
 
 
-### Dynamic Programming (Held-Karp algorithms)
+### Dynamic Programming gi algorithms
 
 Reference: https://github.com/ishanjogalekar/TSP-using-Dynamic-Programming-?tab=readme-ov-file
 
