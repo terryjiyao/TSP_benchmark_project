@@ -340,18 +340,13 @@ def Christoph_Deschauer(dist_matrix_, start_node=None, exact_flag=False):
 
     # Step 4: Find Eulerian tour
     final_path = find_euler_tour(union)
-    
-    # Step 5: Adjust starting node if specified
+    min_dist = Calculate_Tour_Length(final_path, dist_matrix_)
+    t = time.time() - st
+
     if start_node is not None:
         if start_node in final_path:
             idx = final_path.index(start_node)
-            final_path = final_path[idx:] + final_path[1:idx+1]  # rearrange tour starting at start_node
-        else:
-            print(f"Warning: start_node {start_node} not found in final_path, using default start.")
-
-    # Step 6: Calculate distance
-    min_dist = Calculate_Tour_Length(final_path, dist_matrix_)
-    t = time.time() - st 
+            final_path = final_path[idx:] + final_path[1:idx+1]
     
     return min_dist, final_path, t
 
